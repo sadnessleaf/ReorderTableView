@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'WZHReorderTableViewDemo_Non-ARC' target in the 'WZHReorderTableViewDemo_Non-ARC' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define TAG_FOR_ABOVE_SHADOW_VIEW_WHEN_DRAGGING 100
+#define TAG_FOR_BELOW_SHADOW_VIEW_WHEN_DRAGGING 200
+
+#endif

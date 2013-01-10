@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA65EBC716967A7300F875D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA65EBC616967A7300F875D8 /* UIKit.framework */; };
+		AA65EBC916967A7300F875D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA65EBC816967A7300F875D8 /* Foundation.framework */; };
+		AA65EBCB16967A7300F875D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA65EBCA16967A7300F875D8 /* CoreGraphics.framework */; };
+		AA65EBD116967A7300F875D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA65EBCF16967A7300F875D8 /* InfoPlist.strings */; };
+		AA65EBD316967A7300F875D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA65EBD216967A7300F875D8 /* main.m */; };
+		AA65EBD716967A7300F875D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA65EBD616967A7300F875D8 /* AppDelegate.m */; };
+		AA65EBEA16967B5B00F875D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA65EBE916967B5B00F875D8 /* QuartzCore.framework */; };
+		AA65EBF91696A86100F875D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA65EBF81696A86100F875D8 /* ViewController.m */; };
+		AADFA82F169E73FB001A7095 /* WZHReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA65EBC216967A7200F875D8 /* WZHReorderTableViewDemo_Non-ARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WZHReorderTableViewDemo_Non-ARC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA65EBC616967A7300F875D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA65EBC816967A7300F875D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA65EBCA16967A7300F875D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA65EBCE16967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WZHReorderTableViewDemo_Non-ARC-Info.plist"; sourceTree = "<group>"; };
+		AA65EBD016967A7300F875D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA65EBD216967A7300F875D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA65EBD416967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZHReorderTableViewDemo_Non-ARC-Prefix.pch"; sourceTree = "<group>"; };
+		AA65EBD516967A7300F875D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA65EBD616967A7300F875D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA65EBE916967B5B00F875D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA65EBF71696A86100F875D8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA65EBF81696A86100F875D8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AADFA82D169E73FB001A7095 /* WZHReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHReorderTableView.h; sourceTree = "<group>"; };
+		AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHReorderTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA65EBBF16967A7200F875D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA65EBEA16967B5B00F875D8 /* QuartzCore.framework in Frameworks */,
+				AA65EBC716967A7300F875D8 /* UIKit.framework in Frameworks */,
+				AA65EBC916967A7300F875D8 /* Foundation.framework in Frameworks */,
+				AA65EBCB16967A7300F875D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA65EBB716967A7200F875D8 = {
+			isa = PBXGroup;
+			children = (
+				AA65EBCC16967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC */,
+				AA65EBCD16967A7300F875D8 /* Supporting Files */,
+				AA65EBC516967A7300F875D8 /* Frameworks */,
+				AA65EBC316967A7200F875D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA65EBC316967A7200F875D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA65EBC216967A7200F875D8 /* WZHReorderTableViewDemo_Non-ARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA65EBC516967A7300F875D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA65EBE916967B5B00F875D8 /* QuartzCore.framework */,
+				AA65EBC616967A7300F875D8 /* UIKit.framework */,
+				AA65EBC816967A7300F875D8 /* Foundation.framework */,
+				AA65EBCA16967A7300F875D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA65EBCC16967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				AADFA82C169E73FB001A7095 /* WZHReorderTableView */,
+				AA65EBD516967A7300F875D8 /* AppDelegate.h */,
+				AA65EBD616967A7300F875D8 /* AppDelegate.m */,
+				AA65EBF71696A86100F875D8 /* ViewController.h */,
+				AA65EBF81696A86100F875D8 /* ViewController.m */,
+			);
+			path = "WZHReorderTableViewDemo_Non-ARC";
+			sourceTree = "<group>";
+		};
+		AA65EBCD16967A7300F875D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA65EBCE16967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC-Info.plist */,
+				AA65EBCF16967A7300F875D8 /* InfoPlist.strings */,
+				AA65EBD216967A7300F875D8 /* main.m */,
+				AA65EBD416967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "WZHReorderTableViewDemo_Non-ARC";
+			sourceTree = "<group>";
+		};
+		AADFA82C169E73FB001A7095 /* WZHReorderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				AADFA82D169E73FB001A7095 /* WZHReorderTableView.h */,
+				AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */,
+			);
+			path = WZHReorderTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA65EBC116967A7200F875D8 /* WZHReorderTableViewDemo_Non-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA65EBE016967A7300F875D8 /* Build configuration list for PBXNativeTarget "WZHReorderTableViewDemo_Non-ARC" */;
+			buildPhases = (
+				AA65EBBE16967A7200F875D8 /* Sources */,
+				AA65EBBF16967A7200F875D8 /* Frameworks */,
+				AA65EBC016967A7200F875D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WZHReorderTableViewDemo_Non-ARC";
+			productName = "WZHReorderTableViewDemo_Non-ARC";
+			productReference = AA65EBC216967A7200F875D8 /* WZHReorderTableViewDemo_Non-ARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA65EBB916967A7200F875D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sadnessleaf;
+			};
+			buildConfigurationList = AA65EBBC16967A7200F875D8 /* Build configuration list for PBXProject "WZHReorderTableViewDemo_Non-ARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA65EBB716967A7200F875D8;
+			productRefGroup = AA65EBC316967A7200F875D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA65EBC116967A7200F875D8 /* WZHReorderTableViewDemo_Non-ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA65EBC016967A7200F875D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA65EBD116967A7300F875D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA65EBBE16967A7200F875D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA65EBD316967A7300F875D8 /* main.m in Sources */,
+				AA65EBD716967A7300F875D8 /* AppDelegate.m in Sources */,
+				AA65EBF91696A86100F875D8 /* ViewController.m in Sources */,
+				AADFA82F169E73FB001A7095 /* WZHReorderTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA65EBCF16967A7300F875D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA65EBD016967A7300F875D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA65EBDE16967A7300F875D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA65EBDF16967A7300F875D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA65EBE116967A7300F875D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZHReorderTableViewDemo_Non-ARC/WZHReorderTableViewDemo_Non-ARC-Prefix.pch";
+				INFOPLIST_FILE = "WZHReorderTableViewDemo_Non-ARC/WZHReorderTableViewDemo_Non-ARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA65EBE216967A7300F875D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZHReorderTableViewDemo_Non-ARC/WZHReorderTableViewDemo_Non-ARC-Prefix.pch";
+				INFOPLIST_FILE = "WZHReorderTableViewDemo_Non-ARC/WZHReorderTableViewDemo_Non-ARC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA65EBBC16967A7200F875D8 /* Build configuration list for PBXProject "WZHReorderTableViewDemo_Non-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA65EBDE16967A7300F875D8 /* Debug */,
+				AA65EBDF16967A7300F875D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA65EBE016967A7300F875D8 /* Build configuration list for PBXNativeTarget "WZHReorderTableViewDemo_Non-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA65EBE116967A7300F875D8 /* Debug */,
+				AA65EBE216967A7300F875D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA65EBB916967A7200F875D8 /* Project object */;
+}
