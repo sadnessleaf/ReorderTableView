@@ -15,7 +15,7 @@
 		AA65EBD716967A7300F875D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA65EBD616967A7300F875D8 /* AppDelegate.m */; };
 		AA65EBEA16967B5B00F875D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA65EBE916967B5B00F875D8 /* QuartzCore.framework */; };
 		AA65EBF91696A86100F875D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA65EBF81696A86100F875D8 /* ViewController.m */; };
-		AADFA82F169E73FB001A7095 /* WZHReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */; };
+		AADFA840169E7A6D001A7095 /* WZHReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AADFA83F169E7A6D001A7095 /* WZHReorderTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		AA65EBE916967B5B00F875D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AA65EBF71696A86100F875D8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA65EBF81696A86100F875D8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AADFA82D169E73FB001A7095 /* WZHReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHReorderTableView.h; sourceTree = "<group>"; };
-		AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHReorderTableView.m; sourceTree = "<group>"; };
+		AADFA83E169E7A6D001A7095 /* WZHReorderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHReorderTableView.h; sourceTree = "<group>"; };
+		AADFA83F169E7A6D001A7095 /* WZHReorderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHReorderTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		AA65EBCC16967A7300F875D8 /* WZHReorderTableViewDemo_Non-ARC */ = {
 			isa = PBXGroup;
 			children = (
-				AADFA82C169E73FB001A7095 /* WZHReorderTableView */,
+				AADFA83D169E7A6D001A7095 /* WZHReorderTableView */,
 				AA65EBD516967A7300F875D8 /* AppDelegate.h */,
 				AA65EBD616967A7300F875D8 /* AppDelegate.m */,
 				AA65EBF71696A86100F875D8 /* ViewController.h */,
@@ -104,14 +104,14 @@
 			path = "WZHReorderTableViewDemo_Non-ARC";
 			sourceTree = "<group>";
 		};
-		AADFA82C169E73FB001A7095 /* WZHReorderTableView */ = {
+		AADFA83D169E7A6D001A7095 /* WZHReorderTableView */ = {
 			isa = PBXGroup;
 			children = (
-				AADFA82D169E73FB001A7095 /* WZHReorderTableView.h */,
-				AADFA82E169E73FB001A7095 /* WZHReorderTableView.m */,
+				AADFA83E169E7A6D001A7095 /* WZHReorderTableView.h */,
+				AADFA83F169E7A6D001A7095 /* WZHReorderTableView.m */,
 			);
 			path = WZHReorderTableView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -178,7 +178,7 @@
 				AA65EBD316967A7300F875D8 /* main.m in Sources */,
 				AA65EBD716967A7300F875D8 /* AppDelegate.m in Sources */,
 				AA65EBF91696A86100F875D8 /* ViewController.m in Sources */,
-				AADFA82F169E73FB001A7095 /* WZHReorderTableView.m in Sources */,
+				AADFA840169E7A6D001A7095 /* WZHReorderTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
